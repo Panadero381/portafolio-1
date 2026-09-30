@@ -14,33 +14,30 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Gradiente")
+ st.subheader("Vectores y matrices")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190) 
- url = "https://mw33faex2t89qg6mgbhatv.streamlit.app"
+ url = "https://class1-jq9yonrbapfszdvqbtlujk.streamlit.app"
  st.write(f"[Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.subheader("Vectores y matrices")
+ image = Image.open('txt_to_audio2.png')
+ st.image(image, width=190) 
+ url = "https://class1-jq9yonrbapfszdvqbtlujk.streamlit.app"
+ st.write(f"[Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.subheader("Vectores y matrices")
+ image = Image.open('txt_to_audio2.png')
+ st.image(image, width=190) 
+ url = "https://class1-jq9yonrbapfszdvqbtlujk.streamlit.app"
+ st.write(f"[Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.subheader("Vectores y matrices")
+ image = Image.open('txt_to_audio2.png')
+ st.image(image, width=190) 
+ url = "https://class1-jq9yonrbapfszdvqbtlujk.streamlit.app"
+ st.write(f"[Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
