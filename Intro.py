@@ -59,7 +59,7 @@ with col2:
  st.write(f"[Enlace]({url})")
   
  st.subheader("Aplicación: Predicción y modelado de la calidad de aire.")
- image = Image.open('{798AE409-2CE2-4196-B94E-77ED83B897AB}.png')
+ image = Image.open('{609865AD-530B-4CD6-955B-AEAE2436A737}.png')
  st.image(image, width=190)
  url = "https://5gyr9emd8duwbkonhqf7ss.streamlit.app"
  st.write(f"[Enlace]({url})")
@@ -68,7 +68,7 @@ with col3:
 
  
  st.subheader("Sistema de IoT Captura de datos y procesamiento.")
- image = Image.open('{E5B51883-6869-4582-AEE9-12D6BA969777}.png')
+ image = Image.open('{563E5C3A-48B7-4D1E-A87E-5EF095F25205}.png')
  st.image(image, width=190)
  url = "https://bncqfo3fkcj2wgy2ppfbht.streamlit.app"
  st.write(f"[Enlace]({url})")
