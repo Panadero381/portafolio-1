@@ -9,9 +9,6 @@ with st.sidebar:
     "Kevin Alexander Londoño Berrio"
   )
   st.write(parrafo)
-
-
-with col1:
  
  st.subheader("Conversión de texto a voz")
  image = Image.open('txt_to_audio2.png')
