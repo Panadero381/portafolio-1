@@ -61,7 +61,7 @@ with col2:
  st.subheader("Aplicación: Predicción y modelado de la calidad de aire.")
  image = Image.open('{798AE409-2CE2-4196-B94E-77ED83B897AB}.png')
  st.image(image, width=190)
- url = "https://vldlaxshnvhetqtymp7hse.streamlit.app"
+ url = "https://5gyr9emd8duwbkonhqf7ss.streamlit.app"
  st.write(f"[Enlace]({url})")
 
 with col3: 
