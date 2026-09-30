@@ -9,7 +9,7 @@ with st.sidebar:
   )
   st.write(parrafo)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
  
@@ -25,10 +25,11 @@ with col1:
  url = "https://apqdekipvxawtttsi5fnfw.streamlit.app"
  st.write(f"[Enlace]({url})")
 
-with col2: 
  st.subheader("Preparación de datos")
  url = "https://clsxccsmbpieulgdwcjbud.streamlit.app"
  st.write(f"[Enlace]({url})")
+
+with col2: 
 
  st.subheader("Aplicación Preparación de datos")
  url = "https://vldlaxshnvhetqtymp7hse.streamlit.app"
@@ -38,15 +39,16 @@ with col2:
  url = "https://fjtsmjyw3w9cxahppk5e8r.streamlit.app"
  st.write(f"[Enlace]({url})")
 
-
-with col3: 
  st.subheader("Series de Tiempo.")
  url = "https://f2q6cyoeo59flcp9edt7hn.streamlit.app"
  st.write(f"[Enlace]({url})")
-
+  
  st.subheader("Aplicación: Predicción y modelado de la calidad de aire.")
  url = "https://vldlaxshnvhetqtymp7hse.streamlit.app"
  st.write(f"[Enlace]({url})")
+
+with col3: 
+
  
  st.subheader("Sistema de IoT Captura de datos y procesamiento.")
  url = "https://bncqfo3fkcj2wgy2ppfbht.streamlit.app"
@@ -64,6 +66,8 @@ with col3:
  url = "https://mpqqpyfq4spvldedmje5gw.streamlit.app"
  st.write(f"[Enlace]({url})")
 
+with col4:
+  
  st.subheader("Visualización de Datos, Story telling y PCA para datos energéticos")
  url = "https://docs.google.com/document/d/1Mod59Ps7cl2dn1uvrFTXgoPijxnAiVxIlJciDsrhP4Y/edit?usp=sharing"
  st.write(f"[Enlace]({url})")
