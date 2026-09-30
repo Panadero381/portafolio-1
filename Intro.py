@@ -16,6 +16,7 @@ with col1:
  
  st.subheader("Vectores y matrices")
  image = Image.open('{2A992445-356A-4541-B2C2-FBE8C68D4F54}.png')
+st.image(image, width=190)
  url = "https://class12-08-buyjccl7jojmcxafltv9jh.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
