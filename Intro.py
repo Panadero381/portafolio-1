@@ -14,7 +14,7 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
  
  st.subheader("Vectores y matrices")
- url = "https://class1-jq9yonrbapfszdvqbtlujk.streamlit.app"
+ url = "https://class12-08-buyjccl7jojmcxafltv9jh.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
  st.subheader("Calculo aplicado, gradiente.")
